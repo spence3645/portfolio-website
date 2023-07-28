@@ -3,8 +3,8 @@ import Body from './components/Body'
 
 function App() {
   return (
-    <div className="container">
-      <Header name={"Matthew Spencer"} title={"Software Engineer"} />
+    <div>
+      <Header name={"Matthew Spencer"} title={"Software Engineer / Game Developer"} />
       <Body />
     </div>
   );

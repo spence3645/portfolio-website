@@ -1,6 +1,13 @@
-body { margin: 0; padding: 0; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.portrait{
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.portrait {
     padding: 5px;
     display: block;
     margin-left: auto;
@@ -13,19 +20,19 @@ body { margin: 0; padding: 0; }
     height: 240px;
 }
 
-.header{
-    background-color: rgb(85, 107, 47); 
+.header {
+    background-color: rgb(85, 107, 47);
     height: 350px;
 }
 
-.tab-box{
+.tab-box {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.tab-btn{
+.tab-btn {
     background: none;
     border: none;
     cursor: pointer;
